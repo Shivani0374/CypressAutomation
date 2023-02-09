@@ -1,0 +1,22 @@
+{
+  "name": "cypresswithtranscript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "merge-reports": "mochawesome-merge ./cypress/reports/mochawesome-report/*.json > ./reportfile.json",
+    "generate-htmlreport":"marge ./reportfile.json --reportDir ./cypress/reports"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.5.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.2",
+    "mochawesome-report-generator": "^6.2.0",
+    "typescript": "^4.9.5"
+  }
+}

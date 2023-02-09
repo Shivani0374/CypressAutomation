@@ -1,0 +1,87 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-02-08T13:42:34.654Z",
+    "end": "2023-02-08T13:42:54.164Z",
+    "duration": 19510,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "54c5b6ed-8f46-41eb-a004-4c032740d070",
+      "title": "",
+      "fullFile": "cypress\\e2e\\basic.cy.ts",
+      "file": "cypress\\e2e\\basic.cy.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "google test",
+          "fullTitle": "google test",
+          "timedOut": null,
+          "duration": 14595,
+          "state": "passed",
+          "speed": "slow",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "cy.visit('https://google.com');\ncy.get('#L2AGLb > .QS5gu').click();\ncy.get('[name=\"q\"]')\n    .type('Roses and Lily')\n    .type('{enter}');",
+          "err": {},
+          "uuid": "417dbbfd-9458-4036-b4be-7af3d2e7f576",
+          "parentUUID": "54c5b6ed-8f46-41eb-a004-4c032740d070",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [
+        "417dbbfd-9458-4036-b4be-7af3d2e7f576"
+      ],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 14595,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports/mochawesome-report"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
